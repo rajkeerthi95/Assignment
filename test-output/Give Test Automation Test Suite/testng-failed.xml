@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Give Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.give.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Give Test Cases(failed)">
+    <classes>
+      <class name="com.give.qa.testcases.FormAuthenticationPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTestFromExcel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.give.qa.testcases.FormAuthenticationPageTest -->
+    </classes>
+  </test> <!-- Give Test Cases(failed) -->
+</suite> <!-- Failed suite [Give Test Automation Test Suite] -->

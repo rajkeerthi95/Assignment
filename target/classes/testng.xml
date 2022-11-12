@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Give Test Automation Test Suite">
+	<listeners>
+		<listener class-name="com.give.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Give Test Cases">
+	  <classes>
+       <class name="com.give.qa.testcases.FormAuthenticationPageTest"/>
+       <class name="com.give.qa.testcases.BrokenImagesPageTest"/>
+       <class name="com.give.qa.testcases.DropdownPageTest"/>
+       <class name="com.give.qa.testcases.FileUploaderPageTest"/>		
+	 </classes>
+	</test><!-- Test -->
+  </suite><!-- Suite -->
