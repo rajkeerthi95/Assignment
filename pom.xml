@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
 <packaging>jar</packaging>
 
-	<name>GiveTestAutomation</name>
+	<name>Give_Assignment</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -16,11 +16,13 @@
 
 	<dependencies>
 
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.14.0</version>
-		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.8.0</version>
+</dependency>
+
 
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -99,7 +101,7 @@
                <version>2.12.4</version>
                <configuration>
                   <suiteXmlFiles>
-                     <suiteXmlFile>.src/main/resources/testng.xml</suiteXmlFile>
+                     <suiteXmlFile>./testng.xml</suiteXmlFile>
                   </suiteXmlFiles>
                </configuration>
             </plugin>     

@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-12T07:38:15Z" name="Default suite" finished-at="2022-11-12T07:39:22Z" duration-ms="67023">
+  <suite started-at="2023-03-30T14:32:26Z" name="Suite" finished-at="2023-03-30T14:32:57Z" duration-ms="31081">
     <groups>
     </groups>
-    <test started-at="2022-11-12T07:38:15Z" name="Default test" finished-at="2022-11-12T07:39:22Z" duration-ms="67023">
-      <class name="com.give.qa.testcases.BrokenImagesPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.give.qa.testcases.BrokenImagesPageTest@6bbe85a8]" started-at="2022-11-12T13:08:16Z" name="setUp" finished-at="2022-11-12T13:09:01Z" duration-ms="45835" status="PASS">
+    <test started-at="2023-03-30T14:32:26Z" name="Test" finished-at="2023-03-30T14:32:57Z" duration-ms="31081">
+      <class name="com.give.qa.testcases.DonatePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.give.qa.testcases.DonatePageTest@74bf1791]" started-at="2023-03-30T20:02:26Z" name="setUp" finished-at="2023-03-30T20:02:33Z" duration-ms="7627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBrokenImagesTest()[pri:1, instance:com.give.qa.testcases.BrokenImagesPageTest@6bbe85a8]" started-at="2022-11-12T13:09:01Z" name="verifyBrokenImagesTest" finished-at="2022-11-12T13:09:13Z" duration-ms="11868" status="PASS">
+        <test-method signature="verifyDonateTest()[pri:1, instance:com.give.qa.testcases.DonatePageTest@74bf1791]" started-at="2023-03-30T20:02:33Z" name="verifyDonateTest" finished-at="2023-03-30T20:02:49Z" duration-ms="15858" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBrokenImagesTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.give.qa.testcases.BrokenImagesPageTest@6bbe85a8]" started-at="2022-11-12T13:09:13Z" name="tearDown" finished-at="2022-11-12T13:09:22Z" duration-ms="9179" status="PASS">
+        </test-method> <!-- verifyDonateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.give.qa.testcases.DonatePageTest@74bf1791]" started-at="2023-03-30T20:02:49Z" name="tearDown" finished-at="2023-03-30T20:02:50Z" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.give.qa.testcases.BrokenImagesPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.give.qa.testcases.DonatePageTest -->
+      <class name="com.give.qa.testcases.DropdownCurrencyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.give.qa.testcases.DropdownCurrencyTest@54504ecd]" started-at="2023-03-30T20:02:50Z" name="setUp" finished-at="2023-03-30T20:02:55Z" duration-ms="5688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDropdownCurrencyTest()[pri:1, instance:com.give.qa.testcases.DropdownCurrencyTest@54504ecd]" started-at="2023-03-30T20:02:55Z" name="verifyDropdownCurrencyTest" finished-at="2023-03-30T20:02:57Z" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownCurrencyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.give.qa.testcases.DropdownCurrencyTest@54504ecd]" started-at="2023-03-30T20:02:57Z" name="tearDown" finished-at="2023-03-30T20:02:57Z" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.give.qa.testcases.DropdownCurrencyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
